@@ -1,0 +1,232 @@
+
+                                             BBBBBBBB      EEEEEEEEEEEE        AAAA        MMM                MMM
+                                             BBBBBBBBBB    EEEEEEEEEEEE       AAAAAA       MMMM              MMMM
+                                             BBB   BBBBB   EEE               AAA  AAA      MMMMM            MMMMM
+  SSSSSSSSSS  UU          UU  NN         NN  BBB     BBBB  EEE              AAA    AAA     MMMMMM          MMMMMM
+ SSSSSSSSSSS  UU          UU  NNN        NN  BBB      BBB  EEE              AAA    AAA     MMM MMM        MMM MMM
+SSS           UU          UU  NNNN       NN  BBB     BBBB  EEE              AAA    AAA     MMM  MMM      MMM  MMM
+SS            UU          UU  NN NN      NN  BBBBBBBBBBB   EEE             AAA      AAA    MMM   MMM    MMM   MMM
+SSS           UU          UU  NN  NN     NN  BBBBBBBBB     EEEEEEEEEEEE    AAAAAAAAAAAA    MMM    MMM  MMM    MMM
+ SSSSSSSSS    UU          UU  NN   NN    NN  BBBBBBBBBBB   EEEEEEEEEEEE    AAAAAAAAAAAA    MMM     MMMMMM     MMM
+  SSSSSSSSS   UU          UU  NN    NN   NN  BBB     BBBB  EEE            AAA        AAA   MMM      MMMM      MMM
+         SSS  UU          UU  NN     NN  NN  BBB      BBB  EEE            AAA        AAA   MMM       MM       MMM
+          SS  UUU        UUU  NN      NN NN  BBB     BBBB  EEE            AAA        AAA   MMM                MMM
+         SSS   UUU      UUU   NN       NNNN  BBB   BBBBB   EEE           AAA          AAA  MMM                MMM
+SSSSSSSSSSS     UUUUUUUUUU    NN        NNN  BBBBBBBBBB    EEEEEEEEEEEE  AAA          AAA  MMM                MMM
+SSSSSSSSSS        UUUUUU      NN         NN  BBBBBBBB      EEEEEEEEEEEE  AAA          AAA  MMM                MMM
+
+------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
+------------------------------------------ - - - VER. VALMIS 1.0 - - - ------------------------------------------
+------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
+
+
+ O - - - - - - - - - - - - - - - O
+          Ohjeen sis‰ltˆ
+ | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+
+ | 1. Pelin esittely             |
+
+ | 2. Peliohjeet                 |
+
+ | 3. Laitteistovaatimukset      |
+
+ | 4. Vikatilat                  |
+
+ | 5. Kysymyksi‰ ja vastauksia   |
+
+ | 6. Tekij‰, palaute & levitys  |
+
+ O - - - - - - - - - - - - - - - O
+
+
+
+H U O M I O !
+
+ƒl‰ tallenna t‰t‰ tiedostoa miss‰‰n vaiheessa. Peli huomaa pienenkin muutoksen ja lakkaa toimimasta, jos ohjeita on muokattu.
+
+ƒLƒ SIIS EDES KORJAA KIRJOITUSVIRHEITƒ, JOS SELLAISIA L÷YTYY!
+
+
+---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
+---------- - - - 1. Pelin esittely - - - ----------
+---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
+
+SunBEAM on englanninkielisest‰ nimest‰‰n huolimatta t‰ysin suomalainen ja suomenkielinen peli. Peli-ideasta kerron kohta, mutta ensiksi haluan sanoa, ett‰ SunBEAMin kaltaisia pelej‰ ei paljoa taida olla, ja itsekin tied‰n vain yhden samantapaisen. Sekin on (/oli?) vasta projektivaiheessa kun t‰t‰ kirjoitin. Oikeastaan alkuper‰inen idea l‰htikin juuri siit‰ projektista, jonka nime‰ nyt en muista. CoolBasic.com:n foorumeilta siit‰ luin. T‰ysin samanlaista peli‰ en kuitenkaan tehnyt. P‰‰tin vain kyh‰t‰ jotakin pient‰ hiljaisuudessa el‰v‰n K-pelien k‰vijˆiden iloksi.
+
+"Pentti Erkkil‰ oli kinnostunut tietokoneista jo nuorena miehen‰. Niinp‰ h‰n totta kai tiesi Intel:n ja Amd:n olevan kesken‰‰n kilpailevia suoritinvalmistajia. Pentti opiskeli tietokoneita ja elekroniikkaa. H‰n valmistui ja tyˆllistyi.
+
+Mutta er‰‰n‰ p‰iv‰n‰:
+-Miksei t‰m‰ helvatun kone tee mit‰‰n!? huusi Pentti tˆiss‰‰n.
+
+Pentti sai heti potkut, sill‰ h‰n oli pelottanut yrityksen kaikki asiakkaat tiehens‰. Tuntikausien pohdintojen j‰lkeen Pentti ymm‰rsi viimein, mik‰ koneeseen oli mennyt. Tietokonealan alati kasvavat, p‰ivittyv‰t ja paisuvat ohjelmistot olivat vuosien saatossa viimein onnistuneet aina nujertamaan suorittimen kuin suorittimen. Tˆiss‰ olleen koneen suoritin ei en‰‰ jaksanut pyˆritt‰‰ Windows Xp:t‰, joka oli juuri ladannut ja asentanut automaattisesti 10 000 hotfixi‰.
+
+Pahinta oli, ett‰ suoritinta ei voinut p‰ivitt‰‰. Se oli uusin, tehokkain, kyvykk‰in ja hintavin suorittimen r‰‰p‰le, mik‰ kaupoista lˆytyi. Intel ja Amd nimitt‰in olivat ajaneet itsens‰ umpikujaan. Suorittimissa k‰ytett‰viss‰ mikropiireiss‰ ja niiden transistoreissa k‰ytetty puolijohdetekniikka oli tullut kehitysuransa p‰‰h‰n. Kukaan ei yksinkertaisesti kyennyt tekem‰‰n t‰ll‰ tekniikalla en‰‰ edellist‰ tehokkaampaa suoritinta.
+
+Pentti halusi ratkaista t‰m‰n ongelman, joten h‰n k‰ytti p‰ivi‰ ja viikkoja pelkk‰‰n pohdiskeluun. P‰‰ns‰rkyl‰‰kkeit‰ kului. Viimein tarpeeksi mietitty‰‰n, tutkittuaan ja kokeiltuaan asioita h‰n tuli tulokseen, ett‰ on mahdollista korvata suorittimien hitaat puolijohteet optisilla h‰rp‰kkeill‰, jolloin tieto suorittimen sis‰ll‰ kulkisi osapuilleen valonnopeudella!
+
+Ei kulunut kauaakaan, kun Pentti n‰pytteli k‰nnyk‰ll‰‰n pari numeroa soittaakseen molemmille Intel:lle ja Amd:lle - uunituore patentti taskussaan. Molemmat yritykset kiinnostuivat heti Pentin suunnitelmista ja ostivat h‰nelt‰ patentin sikahintaan jakaen sen kesken‰‰n puoliksi. Maksuksi sovittiin 5% kaikkien Intelin ja Amd:n uusien prosessorien tuotosta. Sill‰ Pentti voisi el‰‰ lopun ik‰ns‰ tekem‰tt‰ en‰‰ tyˆt‰.
+
+Mutta ei kulunut kuukauttakaan, kun molemmat yritykset ottivat j‰lleen Penttiin yhteytt‰ ilmoittaen, ett‰ heid‰n suunnittelijansa, kehitt‰j‰ns‰ ja jopa kahvinkeitt‰j‰ns‰ olivat ep‰onnistuneet yritt‰ess‰‰n suunnitella uudenlaista optista prosessoria. Pentille l‰hetettiin kaikki ep‰onnistuneet suunnitelmat tarkistettavaksi. Rahaahan Pentti ei saisi ennen kuin tietokonekauppiaat toitottaisivat talvella valoisaa joulua uusien optisten suorittimien ostajille."
+
+Sinun teht‰v‰n‰ on siis selvitt‰‰, mikseiv‰t suoritimien sis‰inen valons‰de lˆyd‰ sinne, minne pit‰‰. Sinun tulee tehd‰ piirrustuksiin (peliss‰ tuttavallisemmin "kenttiin") lis‰yksi‰ peilaamaan valons‰de oikeisiin paikkoihin. Eik‰ sek‰‰n aina ole hyv‰. Sinun on pistett‰v‰ itsesi t‰ysill‰ likoon, sill‰ valon reitist‰ pit‰‰ myˆs saada lyhyt, jotta suorittimessa riitt‰‰ nopeus! Eik‰ hommaa helpota se, ett‰ saamasi piirrustukset on jo alunperin tehty enemm‰n tai v‰hemm‰n mielenvikaisesti. :DDDD
+
+
+------------ - - - ~~~~~~~~~~~~~ - - - ------------
+------------ - - - 2. Peliohjeet - - - ------------
+------------ - - - ~~~~~~~~~~~~~ - - - ------------
+
+Peliohjeet lˆytyv‰t itse pelist‰. K‰ynnist‰ peli ja klikkaa Ohjeet-painiketta. Sijoitin ohjeet siksi itse pelin sis‰‰n, ett‰ ne olisivat helpommin saatavilla pelitilanteessa.
+
+
+------ - - - ~~~~~~~~~~~~~~~~~~~~~~~~ - - - -------
+------ - - - 3. Laitteistovaatimukset - - - -------
+------ - - - ~~~~~~~~~~~~~~~~~~~~~~~~ - - - -------
+
+Koneesi olisi hyv‰ t‰ytt‰‰ n‰m‰ vaatimukset pelin sujuvan toimimisen vuoksi.
+
+Minimi:
+ + Suoritin: 350 MHz Intel, AMD tai vastaava
+ + K‰yttˆj‰rjestelm‰: Windows 98, Me, 2000, Xp (ja Vista luultavasti k‰y myˆs)
+ + RAM-muisti: 64 Mb (Windows 98) / 256 Mb (Windows Xp)
+ + N‰ytˆnohjain: 8 Mb muistia
+ + DirectX 7.0 (voit ladata t‰‰lt‰: www.microsoft.com)
+ + Hiiri ja n‰pp‰imistˆ
+ + Noin 4 Mb kovalevytilaa
+
+Suositus:
+ + Suoritin: 1000 - 2000 Mhz tai enemm‰n
+ + RAM-muisti: 128 Mb (Windows 98) / 512 Mb (Windows Xp) tai ememm‰n
+ + N‰ytˆnohjain: 32 Mb muistia tai enemm‰n
+ + Rullahiiri
+ + ƒ‰nikortti
+ + Internetyhteys p‰ivityksi‰ varten
+ + Kovalevytilaa v‰h‰n enemm‰n kuin 4 Mb, jotta j‰isi tilaa viel‰ p‰ivityksillekin ;)
+ 
+Suositustehovaatimukset ovat suorittimen osalta t‰ll‰ hetkell‰ korkeat. Editori nimitt‰in pyˆrii hitaasti sellaisten kenttien kohdalla, joissa on paljon peilej‰, esteit‰, kohteita tai estoalueita. Tulevissa p‰ivityksiss‰ editori tulee keventym‰‰n. Pienempi‰ kentti‰ pystyy pelaamaan huomattavasti alhaisemmallakin suorittimen kellotaajuudella.
+
+
+------------- - - - ~~~~~~~~~~~~ - - - ------------
+------------- - - - 4. Vikatilat - - - ------------
+------------- - - - ~~~~~~~~~~~~ - - - ------------
+
+T‰ss‰ kappaleessa on lueteltu mahdollisia vikoja, joita peliss‰ saattaa ilmet‰.
+
+ * Virheilmoitus: "Ei voida asettaa 800x600-resoluutiota 32-bittisill‰ v‰reill‰."
+  + Tietokoneesi n‰ytˆnohjain ei tue t‰t‰ resoluutiota, tai sinulla ei ole DirectX (7.0 tai uudempi) asennettuna.
+  + Korjaa asentamalla uusin DirectX (www.microsoft.com).
+  + Jos ei auta, k‰ynnist‰ peli (esimerkiksi pikakuvakkeen avulla) komentamalla SunBEAM.exe IKKUNA jolloin peli k‰ynnistyy ikkunassa kokoruudun sijaan.
+  + Jos ei edelleenk‰‰n auta, voi olla aika ostaa uusi n‰ytˆnohjain tai uusi tietokone.
+
+ * Virheilmoitus: "Unable to set graphics mode."
+  + Sama kuin edellinen - paitsi ett‰ t‰t‰ ei pit‰isi ikin‰ ilmaantua.
+  + Kokeile tietokoneen uudelleen k‰ynnistyst‰.
+
+ * Virheilmoitus: "Can't read from negative array index."
+  + Virhe pelin koodissa, jolloin peli yritt‰‰ lukea muistitaulukkoa jokseenkin hullusti.
+  + Koeta ladata peliin korjaus P‰ivitys-toiminnon avulla.
+  + Jos ei auta, l‰het‰ minulle palautetta ja kerro, mit‰ olit juuri tekem‰ss‰, kun t‰m‰ ilmaantui.
+
+ * Virheilmoitus: "Memory Access Violation"
+  + Virhe pelin koodissa, jolloin peli yritt‰‰ k‰ytt‰‰ jotakin mediaa (grafiikkaa tai musiikkia) v‰‰rin.
+  + Koeta ladata peliin korjaus P‰ivitys-toiminnon avulla.
+  + Jos ei auta, l‰het‰ minulle palautetta ja kerro, mit‰ olit juuri tekem‰ss‰, kun t‰m‰ ilmaantui.
+
+ * Virheilmoitus: "Tiedostoa XXX ei lˆydy." TAI "Tiedosto XXX ei ole kunnossa."
+  + Pelin p‰ivitys on mennyt pieleen, peli ei ole kopioitunut oikein tai tiedostoille on tapahtunut muuta pahaa.
+  + Lataa peli uudelleen osoitteesta http://www.kpelit.urli.net
+  
+ * Virheilmoitus: "Open to write failed"
+  + Jos t‰m‰ tulee aivan pelin alussa tai poistuttaessa pelin asetuksista; ei asetuksien tallennus tiedostoon jostakin syyst‰ onnistunut.
+  + Jos t‰m‰ tulee kentt‰‰ tallennettaessa tai toplistaan kirjoittamisen yhteydess‰, ei kent‰n tallentaminen onnistunut.
+  + L‰het‰ asiasta palautetta.
+ 
+ * Virheilmoitus: "Open to read failed."
+  + Kent‰n avaaminen ei onnistunut tai kentt‰listan lataaminen ei onnistunut.
+  + L‰het‰ asiasta palautetta.
+
+ * Bugi: Valons‰de menee peilist‰ tai esteest‰ l‰pi
+  + Vika valons‰teen radan laskevassa moottorissa. Pelin testauksissa t‰llaista ei tosin havaittu en‰‰ useiden tuntien paranteluiden j‰lkeen.
+  + Koeta ladata peliin korjaus P‰ivitys-toiminnon avulla.
+  + Jos ei auta, nappaa vikatilanteesta kuva ja l‰het‰ minulle. Jos olit juuri kehitt‰m‰ss‰ uutta kentt‰‰, voit myˆs tallentaa kent‰n ja l‰hett‰‰ minulle (salasanasuojauksella tai ilman - minun ei tarvitse muuttaa kent‰n ominaisuuksia).
+  + HUOM! Joskus tulee tilanteita, joissa valons‰de vain n‰ytt‰‰ menev‰n peilin l‰pi. T‰llˆin  valons‰de oikeasti osuu peliin ensin kerran ja kimpoaa muihin peileihin, joista se lopulta p‰‰tyy t‰m‰n ensimm‰isen peilin toiselle puolelle ja osuu suunnilleen samaan kohtaan kuin aiemmin, jolloin saattaa n‰ytt‰‰ silt‰, ett‰ valo menisi vain suoraan l‰pi.
+  
+  * Bugi: Valons‰de pys‰htyy peiliin
+   + Varmistu, ettei peli ole sittenkin este.
+   + Varmistu, ettei peli vain lopettanut valons‰teen laskemista aikarajan ylittyess‰ (sit‰ voi s‰‰t‰‰ asetuksista - oletus on 10 sekuntia)
+   + Jos ei auttanut, nappaa tilanteesta kuva ja l‰het‰ minulle osoitteeseen kpelit2003@hotmail.com, kiitos.
+
+ * En kuule musiikkia
+  + Tarkista, ett‰ musiikki on kytketty pelin asetuksista ja ett‰ kaiuttimesi ovat p‰‰ll‰ (ja ett‰ niiss‰ on voluumia)
+  + Tarkista, ett‰ Windowsin ‰‰niasetuksissa yleinen ‰‰nen voimakkuus ei ole nollassa.
+  + Tarkista, ett‰ Windowsin ‰‰niasetuksissa WAV-‰‰nen voimakkuus ei ole nollassa.
+  + Tarkista, ett‰ ‰‰net eiv‰t ole hiljennetty Mute-toiminnolla Windowsissa.
+  + Tarkista, ett‰ kaiuttimien johdot on kytketty kunnolla.
+  + Tarkista, ett‰ tiedosto Data\Musiikki.mp3 lˆytyy (jos ei lˆydy, pelin pit‰isi kyll‰ huomauttaa t‰st‰).
+  + Kokeile, l‰hteekˆ muista peleist‰ tai ohjelmista mit‰‰n ‰‰nt‰
+   - Jos ei l‰htenyt, lataa ‰‰nikorttiisi uudet ajurit ja tarkista ‰‰nikortin kunto muutenkin.
+   - Jos l‰hti, l‰het‰ palautetta minulle asiasta. Kerro ainakin ‰‰nikorttisi merkki ja malli.
+
+ * S‰‰din peliss‰ n‰ytˆn gammaa ja nyt en n‰e asettaa sit‰ takaisin
+  + Poista Asetukset.jtn-tiedosto. T‰m‰ palauttaa kaikki asetukset oletusarvoihinsa.
+
+
+----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - -----
+----- - - - 5. Kysymyksi‰ ja vastauksia - - - -----
+----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - -----
+
+T‰m‰ kappale sis‰lt‰‰ kysymyksi‰ vastauksineen sellaisista asioista, joista ohjeen muut kappaleet eiv‰t kerro.
+
+ K  Miten voin muuttaa asetukset takaisin oletusarvoihinsa?
+ V  Poista Asetukset.jtn-tiedosto. Peli luo automaattisesti uuden tilalle oletusasetuksilla.
+
+ K  Unohdin luomani kent‰n salasanan. Onko se mahdollista saada selvitetty‰?
+ V  On, mutta siihen kykenee vain min‰ tai hakkeri. Periaatteessa en kyll‰ l‰hde selvitt‰m‰‰n salasanaa huijausten vuoksi. Kannattaa siis pit‰‰ hyv‰‰ huolta salasanoista, jos kentti‰ haluaa viel‰ myˆhemmin muokata.
+
+ K  Miten tehokkaasti luomani kent‰t salataan?
+ V  Ei kovinkaan vankasti, jos ammattitason salauksiin verrataan. Silti esimerkiksi kent‰n salasanan selvitt‰minen vaatii pelist‰ sellaista taustatietoa, jota ei mist‰‰n pahemmin saa - edes pelin exe-tiedostoa tutkimalla (ja jota min‰ en kenellekk‰‰n kerro). N‰in ollen kukaan ei halua l‰hte‰ murtamaan kent‰n suojausta vain tehd‰kseen kepposia. :)
+
+ K  Onko pelin kuvien tai musiikin muokkaaminen mahdollista?
+ V  Vastaus on kyll‰. Peli vain ei l‰hde en‰‰ muokkauksen j‰lkeen k‰yntiin.
+
+ K  Mit‰ tiedosto cbNetwork.dll tekee?
+ V  Se on nettikomentokirjasto, jota pelin p‰ivitystoiminto k‰ytt‰‰. Peli ei l‰het‰ mit‰‰n yksityisi‰ tietoja internetiin.
+
+ K  Koneessani ei ole interneti‰. Miten pelin p‰ivitt‰minen nyt k‰y?
+ V  Mene koneelle, jolla p‰‰set nettiin, ja lataa peli osoitteesta kpelit.urli.net.
+ V  Siirr‰ peli sitten esimerkiksi usb-muistille tai cd:lle (tavallinen levyke on liian pieni) ja sit‰ kautta koneeseen, jossa netti‰ ei ole. Voit siirt‰‰ uuden peliversion suoraan vanhan p‰‰lle.
+
+ K  Koneessani ei ole netti‰, joten voinko poistaa cbNetwork.dll-tiedoston?
+ V  Et. Peli nimitt‰in tarkistaa latautuessaan, ett‰ kaikki tiedostot on kunnossa. N‰in ollen myˆs cbNetwork.dll tarvitaan, vaikkei tarkistuksessa netti‰ k‰ytet‰kk‰‰n. Jos saat koneeseesi joskus netin, on ainakin pelin p‰ivitt‰minen sitten helppoa.
+ 
+ K  Miksei kuvan nappaaminen onnistu kun peli‰ ajetaan ikkunassa?
+ V  Tarkkaa syyt‰ en t‰h‰n tied‰. Tuloksena syntyy kuitenkin CoolBasicin omaa Screenshot-komentoa k‰ytt‰m‰ll‰ pelkk‰ musta kuvatiedosto. Korjaan t‰m‰n jossakin p‰ivityksess‰ hoitamalla tallennuksen jollakin muulla tapaa.
+ 
+ K  Saanko levitt‰‰ itse luomiani kentti‰ pelist‰ irrallisina esimerkiksi kotisivullani?
+ V  Saat. Omien kenttien levitys on t‰ysin sallittua ja jopa suotavaa.
+ 
+ K  Olen p‰ivitt‰nyt pelin p‰ivitystoiminnolla ja nyt haluaisin levitt‰‰ sit‰. Jos levit‰n lataamaani alkuper‰ist‰ zip- tai rar-pakettia, uudet p‰ivitykset eiv‰t tule mukana. Kuinka minun tulisi toimia?
+ V  Helpointa on ohjata peli‰ haluavat henkilˆt lataamaan peli K-pelien sivuilta. Jos t‰m‰ ei onnistu, voit itse ladata sivuilta uuden zip- tai rar-paketin - tai vaihtoehtoisesti pakata itsell‰si jo olevan pelin kaikkine tiedostoineen pakkausohjelmalla. Voit myˆs j‰tt‰‰ paketista pois itse tekemi‰si kentti‰, jos niin haluat - mutta alkuper‰isten kenttien tulee s‰ily‰, jotta peli toimisi. Kannattaa viel‰ paketin luomisen j‰lkeen tarkistaa, ett‰ paketti purkautuu oikein ja peli l‰htee k‰yntiin.
+ 
+ K  Miten kenttien toplistan tyhjennys onnistuu?
+ V  Avaa kentt‰ ja klikkaa Kent‰n ominaisuudet. Jos kentt‰ on suojattu, sinulta kysyt‰‰n salasanaa. Laita t‰pp‰ kohtaan Tyhjenn‰ toplista ja klikkaa Ok. Peliss‰ alunperin olleiden kenttien toplistan tyhjent‰minen ei onnistu, sill‰ vain min‰ tied‰n niiden salasanat.
+ 
+
+----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - ----
+----- - - - 6. Tekij‰, palaute & levitys - - - ----
+----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - ----
+
+T‰m‰n pelin olen tehnyt min‰, Jarkko Linnanvirta (Jare). Palautetta voit l‰hett‰‰ joko s‰hkˆpostilla osoitteeseen kpelit2003@hotmail.com tai osoitteessa www.kpelit.urli.net (tai http://koti.mbnet.fi/jare1/kpelit/) sijaitsevaan vieraskirjaan tai foorumiin. Kaikki palaute on tervetullutta ja parannusehdotukset otetaan huomioon peliin mahdollisesti tulevissa p‰ivityksiss‰.
+
+Kiitokset seuraaville:
+ * CoolBasic (www.coolbasic.com): Loistava ohjelmointikieli, jolla t‰m‰ peli on tehty.
+ * CoolBasic Software Development Kit (koti.mbnet.fi/cbsdk/): Hyv‰ funktiokirjasto, auttanut t‰ss‰ peliss‰ paljon.
+ * CoolBasic Koodikirjasto (cbkk.arkku.net): Toinen hyv‰ funktiokirjasto, josta on t‰ss‰ peliss‰ ollut apua.
+ * CoolText (www.cooltext.com): Valikon nappulat sain t‰‰ll‰ tehty‰ k‰tev‰sti.
+ * The Boris: Testaus ja pari grafiikkaa
+ * Jussi (jussisoftware.urli.net): Testaus
+ * Shogo Kawada: Testaus ja taustakuva
+ * Dy3r: Testaus
+ 
+Peli on tekij‰noikeuslain alainen. Sit‰ saa levitt‰‰, kunhan siit‰ ei perit‰ maksua ja kunhan sen tekij‰ksi ei v‰itet‰ ket‰‰n muuta kuin minua ja kunhan peli‰ ei ole muokattu ilman minun lupaani. Omia kentti‰ (ja enn‰tyksi‰ kaikissa kentiss‰) saa toki olla pelin mukana.
+
+ (C) 2006 Jarkko Linnanvirta
