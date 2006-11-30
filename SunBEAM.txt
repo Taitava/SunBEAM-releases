@@ -16,7 +16,7 @@ SSSSSSSSSSS     UUUUUUUUUU    NN        NNN  BBBBBBBBBB    EEEEEEEEEEEE  AAA    
 SSSSSSSSSS        UUUUUU      NN         NN  BBBBBBBB      EEEEEEEEEEEE  AAA          AAA  MMM                MMM
 
 ------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
------------------------------------------- - - - VER. VALMIS 1.0 - - - ------------------------------------------
+------------------------------------------ - - - VER. VALMIS 1.1 - - - ------------------------------------------
 ------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
 
 
@@ -34,7 +34,9 @@ SSSSSSSSSS        UUUUUU      NN         NN  BBBBBBBB      EEEEEEEEEEEE  AAA    
 
  | 5. Kysymyksi‰ ja vastauksia   |
 
- | 6. Tekij‰, palaute & levitys  |
+ | 6. Versiohistoria             |
+
+ | 7. Tekij‰, palaute & levitys  |
 
  O - - - - - - - - - - - - - - - O
 
@@ -209,10 +211,22 @@ T‰m‰ kappale sis‰lt‰‰ kysymyksi‰ vastauksineen sellaisista asioista, joista ohje
  
  K  Miten kenttien toplistan tyhjennys onnistuu?
  V  Avaa kentt‰ ja klikkaa Kent‰n ominaisuudet. Jos kentt‰ on suojattu, sinulta kysyt‰‰n salasanaa. Laita t‰pp‰ kohtaan Tyhjenn‰ toplista ja klikkaa Ok. Peliss‰ alunperin olleiden kenttien toplistan tyhjent‰minen ei onnistu, sill‰ vain min‰ tied‰n niiden salasanat.
- 
+
+
+---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
+---------- - - - 6. Versiohistoria - - - ----------
+---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
+
+T‰m‰ kappale sis‰lt‰‰ tietoa peliin tehdyist‰ muutoksista eri versioiden v‰lill‰.
+
+ * 1.0 -> 1.1
+  + Pient‰ viilausta.
+  + Aiemmin liikutettaessa jotakin elementti‰, saattoi sen alta paljastua toinen, samanlainen elementti. T‰m‰ on nyt korjattu.
+  + Kaksi uutta kentt‰‰ (Kahdeksan (vaikea) ja Osat (helppo))
+
 
 ----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - ----
------ - - - 6. Tekij‰, palaute & levitys - - - ----
+----- - - - 7. Tekij‰, palaute & levitys - - - ----
 ----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - ----
 
 T‰m‰n pelin olen tehnyt min‰, Jarkko Linnanvirta (Jare). Palautetta voit l‰hett‰‰ joko s‰hkˆpostilla osoitteeseen kpelit2003@hotmail.com tai osoitteessa www.kpelit.urli.net (tai http://koti.mbnet.fi/jare1/kpelit/) sijaitsevaan vieraskirjaan tai foorumiin. Kaikki palaute on tervetullutta ja parannusehdotukset otetaan huomioon peliin mahdollisesti tulevissa p‰ivityksiss‰.
@@ -226,6 +240,7 @@ Kiitokset seuraaville:
  * Jussi (jussisoftware.urli.net): Testaus
  * Shogo Kawada: Testaus ja taustakuva
  * Dy3r: Testaus
+ * Marcoder (http://www.coolbasic.com/forums/index.php?showuser=480): Nettikomennot p‰ivityksi‰ varten
  
 Peli on tekij‰noikeuslain alainen. Sit‰ saa levitt‰‰, kunhan siit‰ ei perit‰ maksua ja kunhan sen tekij‰ksi ei v‰itet‰ ket‰‰n muuta kuin minua ja kunhan peli‰ ei ole muokattu ilman minun lupaani. Omia kentti‰ (ja enn‰tyksi‰ kaikissa kentiss‰) saa toki olla pelin mukana.
 
