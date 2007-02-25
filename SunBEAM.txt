@@ -16,7 +16,7 @@ SSSSSSSSSSS     UUUUUUUUUU    NN        NNN  BBBBBBBBBB    EEEEEEEEEEEE  AAA    
 SSSSSSSSSS        UUUUUU      NN         NN  BBBBBBBB      EEEEEEEEEEEE  AAA          AAA  MMM                MMM
 
 ------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
------------------------------------------- - - - VER. VALMIS 1.1 - - - ------------------------------------------
+------------------------------------------ - - - VER. VALMIS 1.5 - - - ------------------------------------------
 ------------------------------------------ - - - ~~~~~~~~~~~~~~~ - - - ------------------------------------------
 
 
@@ -53,16 +53,18 @@ H U O M I O !
 ---------- - - - 1. Pelin esittely - - - ----------
 ---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
 
-SunBEAM on englanninkielisestä nimestään huolimatta täysin suomalainen ja suomenkielinen peli. Peli-ideasta kerron kohta, mutta ensiksi haluan sanoa, että SunBEAMin kaltaisia pelejä ei paljoa taida olla, ja itsekin tiedän vain yhden samantapaisen. Sekin on (/oli?) vasta projektivaiheessa kun tätä kirjoitin. Oikeastaan alkuperäinen idea lähtikin juuri siitä projektista, jonka nimeä nyt en muista. CoolBasic.com:n foorumeilta siitä luin. Täysin samanlaista peliä en kuitenkaan tehnyt. Päätin vain kyhätä jotakin pientä hiljaisuudessa elävän K-pelien kävijöiden iloksi.
+SunBEAM on englanninkielisestä nimestään huolimatta täysin suomalainen ja suomenkielinen peli. Ideana on ohjata valonsäde erilaisissa kentissä tiettyihin kohteisiin asettamalla kenttiin peilejä muuttamaan valon kulkua.
 
-"Pentti Erkkilä oli kinnostunut tietokoneista jo nuorena miehenä. Niinpä hän totta kai tiesi Intel:n ja Amd:n olevan keskenään kilpailevia suoritinvalmistajia. Pentti opiskeli tietokoneita ja elekroniikkaa. Hän valmistui ja työllistyi.
+Alkutarina
+
+"Pentti Erkkilä oli kiinnostunut tietokoneista jo nuorena miehenä. Niinpä hän totta kai tiesi Intel:n ja Amd:n olevan keskenään kilpailevia suoritinvalmistajia. Pentti opiskeli tietotekniikkaa ja elekroniikkaa. Hän valmistui ja työllistyi joskus vuonna keppi ja kivi.
 
 Mutta eräänä päivänä:
 -Miksei tämä helvatun kone tee mitään!? huusi Pentti töissään.
 
 Pentti sai heti potkut, sillä hän oli pelottanut yrityksen kaikki asiakkaat tiehensä. Tuntikausien pohdintojen jälkeen Pentti ymmärsi viimein, mikä koneeseen oli mennyt. Tietokonealan alati kasvavat, päivittyvät ja paisuvat ohjelmistot olivat vuosien saatossa viimein onnistuneet aina nujertamaan suorittimen kuin suorittimen. Töissä olleen koneen suoritin ei enää jaksanut pyörittää Windows Xp:tä, joka oli juuri ladannut ja asentanut automaattisesti 10 000 hotfixiä.
 
-Pahinta oli, että suoritinta ei voinut päivittää. Se oli uusin, tehokkain, kyvykkäin ja hintavin suorittimen rääpäle, mikä kaupoista löytyi. Intel ja Amd nimittäin olivat ajaneet itsensä umpikujaan. Suorittimissa käytettävissä mikropiireissä ja niiden transistoreissa käytetty puolijohdetekniikka oli tullut kehitysuransa päähän. Kukaan ei yksinkertaisesti kyennyt tekemään tällä tekniikalla enää edellistä tehokkaampaa suoritinta.
+Pahinta oli, että suoritinta ei voinut päivittää. Se oli uusin, tehokkain, kyvykkäin ja hintavin suorittimen rääpäle, mikä kaupoista löytyi. Intel ja Amd nimittäin olivat ajaneet itsensä umpikujaan. Suorittimien sisältämissä mikropiireissä ja niiden transistoreissa käytetty puolijohdetekniikka oli tullut kehitysuransa päähän. Kukaan ei yksinkertaisesti kyennyt tekemään tällä tekniikalla enää edellistä tehokkaampaa suoritinta.
 
 Pentti halusi ratkaista tämän ongelman, joten hän käytti päiviä ja viikkoja pelkkään pohdiskeluun. Päänsärkylääkkeitä kului. Viimein tarpeeksi mietittyään, tutkittuaan ja kokeiltuaan asioita hän tuli tulokseen, että on mahdollista korvata suorittimien hitaat puolijohteet optisilla härpäkkeillä, jolloin tieto suorittimen sisällä kulkisi osapuilleen valonnopeudella!
 
@@ -88,23 +90,23 @@ Koneesi olisi hyvä täyttää nämä vaatimukset pelin sujuvan toimimisen vuoksi.
 
 Minimi:
  + Suoritin: 350 MHz Intel, AMD tai vastaava
- + Käyttöjärjestelmä: Windows 98, Me, 2000, Xp (ja Vista luultavasti käy myös)
+ + Käyttöjärjestelmä: Windows 98, Me, 2000, Xp (Vista ei eräiden tietojen mukaan käy - tosin peliä ei ole testattu Vistassa)
  + RAM-muisti: 64 Mb (Windows 98) / 256 Mb (Windows Xp)
  + Näytönohjain: 8 Mb muistia
  + DirectX 7.0 (voit ladata täältä: www.microsoft.com)
  + Hiiri ja näppäimistö
- + Noin 4 Mb kovalevytilaa
+ + Noin 5 Mb kovalevytilaa
 
 Suositus:
- + Suoritin: 1000 - 2000 Mhz tai enemmän
+ + Suoritin: 1000 - 2000 Mhz tai enemmän (tuplaytimestä voisi olla riemua..)
  + RAM-muisti: 128 Mb (Windows 98) / 512 Mb (Windows Xp) tai ememmän
  + Näytönohjain: 32 Mb muistia tai enemmän
  + Rullahiiri
  + Äänikortti
  + Internetyhteys päivityksiä varten
- + Kovalevytilaa vähän enemmän kuin 4 Mb, jotta jäisi tilaa vielä päivityksillekin ;)
+ + Kovalevytilaa vähän enemmän kuin 5 Mb, jotta jäisi tilaa vielä päivityksillekin ;)
  
-Suositustehovaatimukset ovat suorittimen osalta tällä hetkellä korkeat. Editori nimittäin pyörii hitaasti sellaisten kenttien kohdalla, joissa on paljon peilejä, esteitä, kohteita tai estoalueita. Tulevissa päivityksissä editori tulee keventymään. Pienempiä kenttiä pystyy pelaamaan huomattavasti alhaisemmallakin suorittimen kellotaajuudella.
+Suositustehovaatimukset ovat suorittimen osalta vielä korkeat. Peli on keventynyt mukavasti 1.5-version myötä, mutta kunnollisen uusintatestauksen puutteessa en lähde vielä alentamaan suositusta.
 
 
 ------------- - - - ~~~~~~~~~~~~ - - - ------------
@@ -117,11 +119,12 @@ Tässä kappaleessa on lueteltu mahdollisia vikoja, joita pelissä saattaa ilmetä.
   + Tietokoneesi näytönohjain ei tue tätä resoluutiota, tai sinulla ei ole DirectX (7.0 tai uudempi) asennettuna.
   + Korjaa asentamalla uusin DirectX (www.microsoft.com).
   + Jos ei auta, käynnistä peli (esimerkiksi pikakuvakkeen avulla) komentamalla SunBEAM.exe IKKUNA jolloin peli käynnistyy ikkunassa kokoruudun sijaan.
-  + Jos ei edelleenkään auta, voi olla aika ostaa uusi näytönohjain tai uusi tietokone.
+  + Jos ei edelleenkään auta, katso vastauksia seuraavasta ongelmasta:
 
  * Virheilmoitus: "Unable to set graphics mode."
   + Sama kuin edellinen - paitsi että tätä ei pitäisi ikinä ilmaantua.
   + Kokeile tietokoneen uudelleen käynnistystä.
+  + Jos ei auta, käynnistä peli parametrilla "16" ilman lainausmerkkejä. (Voit käyttää sitä myös yhdessä IKKUNA-parametrin kanssa jolloin erotinmerkillä tai järjestyksellä ei ole väliä). Tällöin käytetään 16-bittisiä värejä 32-bittisten sijaan.
 
  * Virheilmoitus: "Can't read from negative array index."
   + Virhe pelin koodissa, jolloin peli yrittää lukea muistitaulukkoa jokseenkin hullusti.
@@ -129,7 +132,7 @@ Tässä kappaleessa on lueteltu mahdollisia vikoja, joita pelissä saattaa ilmetä.
   + Jos ei auta, lähetä minulle palautetta ja kerro, mitä olit juuri tekemässä, kun tämä ilmaantui.
 
  * Virheilmoitus: "Memory Access Violation"
-  + Virhe pelin koodissa, jolloin peli yrittää käyttää jotakin mediaa (grafiikkaa tai musiikkia) väärin.
+  + Virhe pelin koodissa, jolloin peli yrittää käyttää jotakin mediaa (grafiikkaa tai musiikkia) väärin tai tekee muuta käsittämätöntä.
   + Koeta ladata peliin korjaus Päivitys-toiminnon avulla.
   + Jos ei auta, lähetä minulle palautetta ja kerro, mitä olit juuri tekemässä, kun tämä ilmaantui.
 
@@ -144,16 +147,25 @@ Tässä kappaleessa on lueteltu mahdollisia vikoja, joita pelissä saattaa ilmetä.
  
  * Virheilmoitus: "Open to read failed."
   + Kentän avaaminen ei onnistunut tai kenttälistan lataaminen ei onnistunut.
+  + Voi myös olla asetustiedoston avaaminen pelin käynnistyksessä ei onnistunut.
   + Lähetä asiasta palautetta.
+
+ * Virheilmoitus: "Map file XXX does not exist."
+  + Peli yrittää avata kenttää jostain syystä väärällä tiedostonimellä
+  + Tarkista päivitykset ja jos sinulla on pelin uusin versio, lähetä palautetta.
+
+ * Virheilmoitus: "File XXX is not a proper SunBEAM file."
+  + Pelissä yritetään avata kenttää, jota ei tunnisteta oikeaksi kentäksi tai kenttä on vioittunut. Jos tämä virheilmoitus tulee, on pelissä jokin aivan kummallinen virhe. Peli nimittäin jättää listaamatta kaikki tunnistamattomat kentät, joten vääränlaista kenttää ei edes pitäisi päästä avaamaan.
+  + Tarkista päivitykset ja jos sinulla on pelin uusin versio, lähetä palautetta.
 
  * Bugi: Valonsäde menee peilistä tai esteestä läpi
   + Vika valonsäteen radan laskevassa moottorissa. Pelin testauksissa tällaista ei tosin havaittu enää useiden tuntien paranteluiden jälkeen.
   + Koeta ladata peliin korjaus Päivitys-toiminnon avulla.
   + Jos ei auta, nappaa vikatilanteesta kuva ja lähetä minulle. Jos olit juuri kehittämässä uutta kenttää, voit myös tallentaa kentän ja lähettää minulle (salasanasuojauksella tai ilman - minun ei tarvitse muuttaa kentän ominaisuuksia).
-  + HUOM! Joskus tulee tilanteita, joissa valonsäde vain näyttää menevän peilin läpi. Tällöin  valonsäde oikeasti osuu peliin ensin kerran ja kimpoaa muihin peileihin, joista se lopulta päätyy tämän ensimmäisen peilin toiselle puolelle ja osuu suunnilleen samaan kohtaan kuin aiemmin, jolloin saattaa näyttää siltä, että valo menisi vain suoraan läpi.
+  + HUOM! Joskus tulee tilanteita, joissa valonsäde vain näyttää menevän peilin läpi. Tällöin  valonsäde oikeasti osuu peiliin ensin kerran ja kimpoaa muihin peileihin, joista se lopulta päätyy tämän ensimmäisen peilin toiselle puolelle ja osuu suunnilleen samaan kohtaan kuin aiemmin, jolloin saattaa näyttää siltä, että valo menisi vain suoraan läpi.
   
   * Bugi: Valonsäde pysähtyy peiliin
-   + Varmistu, ettei peli ole sittenkin este.
+   + Varmistu, ettei peili ole sittenkin este.
    + Varmistu, ettei peli vain lopettanut valonsäteen laskemista aikarajan ylittyessä (sitä voi säätää asetuksista - oletus on 10 sekuntia)
    + Jos ei auttanut, nappaa tilanteesta kuva ja lähetä minulle osoitteeseen kpelit2003@hotmail.com, kiitos.
 
@@ -171,6 +183,11 @@ Tässä kappaleessa on lueteltu mahdollisia vikoja, joita pelissä saattaa ilmetä.
  * Säädin pelissä näytön gammaa ja nyt en näe asettaa sitä takaisin
   + Poista Asetukset.jtn-tiedosto. Tämä palauttaa kaikki asetukset oletusarvoihinsa.
 
+ * Peilit ja/tai esteet näkyvät välillä/aina ohuina valkoisina viivoina
+  + Tarkista, että grafiikan kooksi ei ole asetettu "pieni".
+  + Todennäköisesti kyse on kuitenkin pelin sisäisestä viasta, jossa kaikille peileille ei ole piirretty omaa kuvaa, joka tulisi esittää näytöllä. Tällöin kuvan sijasta käytetään ohutta viivaa. Vikaa ei esiintynyt peliä testatessa, joten ota yhteyttä, mikäli havaitset tämän vian! (Ja koeta päivittää peli ennen yhteydenottoa - vika voikin olla jo korjattuna).
+  + Väliaikaisena korjauksena voit esimerkiksi mennä editorissa asetuksiin ja palata sieltä takaisin (miitän muutoksia ei tarvita), jolloin grafiikan pitäisi päivittyä.
+
 
 ----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - -----
 ----- - - - 5. Kysymyksiä ja vastauksia - - - -----
@@ -185,7 +202,7 @@ Tämä kappale sisältää kysymyksiä vastauksineen sellaisista asioista, joista ohje
  V  On, mutta siihen kykenee vain minä tai hakkeri. Periaatteessa en kyllä lähde selvittämään salasanaa huijausten vuoksi. Kannattaa siis pitää hyvää huolta salasanoista, jos kenttiä haluaa vielä myöhemmin muokata.
 
  K  Miten tehokkaasti luomani kentät salataan?
- V  Ei kovinkaan vankasti, jos ammattitason salauksiin verrataan. Silti esimerkiksi kentän salasanan selvittäminen vaatii pelistä sellaista taustatietoa, jota ei mistään pahemmin saa - edes pelin exe-tiedostoa tutkimalla (ja jota minä en kenellekkään kerro). Näin ollen kukaan ei halua lähteä murtamaan kentän suojausta vain tehdäkseen kepposia. :)
+ V  Ei kovinkaan vankasti, jos ammattitason salauksiin verrataan. Silti esimerkiksi kentän salasanan selvittäminen vaatii pelistä sellaista taustatietoa, jota ei mistään pahemmin saa - edes pelin exe-tiedostoa tutkimalla. Näin ollen kukaan ei halua lähteä murtamaan kentän suojausta vain tehdäkseen kepposia. :)
 
  K  Onko pelin kuvien tai musiikin muokkaaminen mahdollista?
  V  Vastaus on kyllä. Peli vain ei lähde enää muokkauksen jälkeen käyntiin.
@@ -204,25 +221,47 @@ Tämä kappale sisältää kysymyksiä vastauksineen sellaisista asioista, joista ohje
  V  Tarkkaa syytä en tähän tiedä. Tuloksena syntyy kuitenkin CoolBasicin omaa Screenshot-komentoa käyttämällä pelkkä musta kuvatiedosto. Korjaan tämän jossakin päivityksessä hoitamalla tallennuksen jollakin muulla tapaa.
  
  K  Saanko levittää itse luomiani kenttiä pelistä irrallisina esimerkiksi kotisivullani?
- V  Saat. Omien kenttien levitys on täysin sallittua ja jopa suotavaa.
+ V  Saat. Omien kenttien levitys on täysin sallittua ja jopa suotavaa. Kuulisin tästä kuitenkin mielelläni voidakseni ohjata pelistä kiinnostuneita sivustoille, joilla kenttiä levitetään.
  
  K  Olen päivittänyt pelin päivitystoiminnolla ja nyt haluaisin levittää sitä. Jos levitän lataamaani alkuperäistä zip- tai rar-pakettia, uudet päivitykset eivät tule mukana. Kuinka minun tulisi toimia?
- V  Helpointa on ohjata peliä haluavat henkilöt lataamaan peli K-pelien sivuilta. Jos tämä ei onnistu, voit itse ladata sivuilta uuden zip- tai rar-paketin - tai vaihtoehtoisesti pakata itselläsi jo olevan pelin kaikkine tiedostoineen pakkausohjelmalla. Voit myös jättää paketista pois itse tekemiäsi kenttiä, jos niin haluat - mutta alkuperäisten kenttien tulee säilyä, jotta peli toimisi. Kannattaa vielä paketin luomisen jälkeen tarkistaa, että paketti purkautuu oikein ja peli lähtee käyntiin.
+ V  Helpointa on ohjata peliä haluavat henkilöt lataamaan peli K-pelien sivuilta. Jos tämä ei onnistu, voit itse ladata sivuilta uuden zip- tai rar-paketin - tai vaihtoehtoisesti pakata itselläsi jo olevan pelin kaikkine tiedostoineen pakkausohjelmalla. Voit myös jättää paketista pois itse tekemiäsi kenttiä, jos niin haluat - mutta alkuperäisten kenttien tulee säilyä. Kannattaa vielä paketin luomisen jälkeen tarkistaa, että paketti purkautuu oikein ja peli lähtee käyntiin.
  
  K  Miten kenttien toplistan tyhjennys onnistuu?
- V  Avaa kenttä ja klikkaa Kentän ominaisuudet. Jos kenttä on suojattu, sinulta kysytään salasanaa. Laita täppä kohtaan Tyhjennä toplista ja klikkaa Ok. Pelissä alunperin olleiden kenttien toplistan tyhjentäminen ei onnistu, sillä vain minä tiedän niiden salasanat.
+ V  Avaa kenttä ja klikkaa Kentän ominaisuudet. Jos kenttä on suojattu, sinulta kysytään salasanaa. Laita täppä kohtiin Tallenna kenttä sekä  Tyhjennä toplista ja klikkaa Ok. Pelissä alunperin olleiden kenttien toplistan tyhjentäminen ei onnistu, sillä vain minä tiedän niiden salasanat.
 
 
 ---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
 ---------- - - - 6. Versiohistoria - - - ----------
 ---------- - - - ~~~~~~~~~~~~~~~~~ - - - ----------
 
-Tämä kappale sisältää tietoa peliin tehdyistä muutoksista eri versioiden välillä.
+Tämä kappale sisältää tietoa peliin tehdyistä muutoksista eri versioiden välillä. Tietoa löytyy myös kenttien yhteensopivuuksista eri versioiden välillä.
+
+Ohjelman versiomuutokset
+
+ * 1.1 -> 1.5
+  + Valon laskeminen on paljon nopeampaa.
+  + Editori on nyt kevyempi.
+  + Lisätty kolmas musiikkikappale.
+  + Lisätty vähän ääniä (niitä ei aiemmin ollut lainkaan. Äänet voi myös kytkeä pois asetuksista).
+  + Lisätty tekstielementti, jolla kentän tekijä voi kirjoittaa kenttäänsä tekstilaatikoita vaikkapa pieniksi läpipääsyvihjeiksi - tai vaikka muistiinpanoiksi itselleen kentän myöhempää jatkamista varten.
+  + Kentän tekijä voi nyt rajoittaa peilien pituuden (peilien määrän pystyi rajoittamaan jo aiemmin).
+  ! Edelliset kaksi lisäystä muuttivat hieman kenttäformaattia, mutta vanhat kentät käyvät edelleen tähän uuteen versioon.
+  + Seuraavien päivitysten lataamisen eteneminen näkyy reaaliajassa ja välkkymättä.
+  + Taustaruudukon ja ruudukkoon kohdistamisen voi nyt kytkeä pois, jos haluaa.
+  + Muutama uusi kenttä.
+  + Lisätty alku- ja loppu-fade.
+  - Poistettu toiminto, jonka avulla hiiren oikealla napilla saattoi valita juuri tietyn kentällä olevan elementin. Poistin toiminnon koska se ei toiminut enää kunnolla editorin uudistusten jälkeen.
+  + Parannettu tukea vanhoille koneille: Jos näytönohjain ei tue 32-bittisiä värejä 800x600-resoluutiolla, on nyt mahdollista käyttää myös 16-bittisiä värejä.
+  + Muita pieniä parannuksia.
 
  * 1.0 -> 1.1
   + Pientä viilausta.
   + Aiemmin liikutettaessa jotakin elementtiä, saattoi sen alta paljastua toinen, samanlainen elementti. Tämä on nyt korjattu.
-  + Kaksi uutta kenttää (Kahdeksan (vaikea) ja Osat (helppo))
+  + Kaksi uutta kenttää (Kahdeksan (vaikea) ja Osat (helppo)).
+
+Huomioita kenttäformaatin muutoksista
+
+ * Pelin versio 1.5 ymmärtää versioiden 1.0 ja 1.1 kenttiä, mutta pelin versiot 1.0 ja 1.1 eivät VÄLTTÄMÄTTÄ ole yhteensopivia version 1.5 ja  sitä uudempien kenttien kanssa. Tätä voi toki kokeilla, jos tarvetta on.
 
 
 ----- - - - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - - - ----
@@ -240,8 +279,9 @@ Kiitokset seuraaville:
  * Jussi (jussisoftware.urli.net): Testaus
  * Shogo Kawada: Testaus ja taustakuva
  * Dy3r: Testaus
- * Marcoder (http://www.coolbasic.com/forums/index.php?showuser=480): Nettikomennot päivityksiä varten
+ * Marcoder (www.coolbasic.com/forums/index.php?showuser=480): Nettikomennot päivityksiä varten
+ * Midi DataBase (www.mididb.com): Musiikit (jotka valitettavasti jouduin muuttamaan mp3-muotoon CoolBasicin huonon midi-tuen vuoksi)
  
 Peli on tekijänoikeuslain alainen. Sitä saa levittää, kunhan siitä ei peritä maksua ja kunhan sen tekijäksi ei väitetä ketään muuta kuin minua ja kunhan peliä ei ole muokattu ilman minun lupaani. Omia kenttiä (ja ennätyksiä kaikissa kentissä) saa toki olla pelin mukana.
 
- (C) 2006 Jarkko Linnanvirta
+ (C) 2006 - 2007 Jarkko Linnanvirta
